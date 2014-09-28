@@ -8,6 +8,8 @@ int main(void) {
   Stack s;
   init(&s);
 
+  // These dont have to be strings.
+  // The stack is type agnostic and will store anything within size limits.
   char *str1 = "Hello";
   char *str2 = "World";
   char *a = malloc(32);
